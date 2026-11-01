@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+ENV/
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Modelos y datos generados
+*.pkl
+*.joblib
+*.bin
+*.pt
+*.pth
+*.onnx
+proyectos/**/data/raw/*.csv
+proyectos/**/data/processed/*
+proyectos/**/models/*
+!proyectos/**/data/raw/.gitkeep
+!proyectos/**/data/processed/.gitkeep
+!proyectos/**/models/.gitkeep
+
+# Secretos
+.env
+.env.*
+!.env.example
+*.pem
+credentials.json
+secrets.json
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Experiment tracking
+mlruns/
+.mlflow/
+
+# Coverage / tests
+.pytest_cache/
+.coverage
+htmlcov/
